@@ -18,16 +18,16 @@ from typing import List
 
 class Solution:
     """
-    Solution class for find pivot index.
+    Solution class for Fizz Buzz game.
     """
 
-    def fizz_buzz(self, n: int) -> List[str]:
+    def fizz_buzz(self, number: int) -> List[str]:
         """
             fizz_buzz
         """
         answer = []
-        for num in range(1,n+1):
-            if num % 3 == 0 and num % 5 == 0:
+        for num in range(1,number+1):
+            if num % 3 == 0 and num % 5 == 0
                 answer.append("FizzBuzz")
             elif num % 3 == 0:
                 answer.append("Fizz")
