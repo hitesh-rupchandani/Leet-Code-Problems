@@ -27,7 +27,7 @@ class Solution:
         """
         answer = []
         for num in range(1,number+1):
-            if num % 3 == 0 and num % 5 == 0
+            if num % 3 == 0 and num % 5 == 0:
                 answer.append("FizzBuzz")
             elif num % 3 == 0:
                 answer.append("Fizz")
@@ -43,9 +43,9 @@ def main() -> None:
     """
     
     solution = Solution()
-    print(solution.fizz_buzz(n=3))
-    print(solution.fizz_buzz(n=5))
-    print(solution.fizz_buzz(n=15))
+    print(solution.fizz_buzz(number=3))
+    print(solution.fizz_buzz(number=5))
+    print(solution.fizz_buzz(number=15))
 
 if __name__ == "__main__":
     main()
